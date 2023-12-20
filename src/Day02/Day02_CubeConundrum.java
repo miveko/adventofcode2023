@@ -1,5 +1,6 @@
 package Day02;
 
+import Base.Puzzle;
 import java.util.Scanner;
 
 public class Day02_CubeConundrum extends Puzzle {

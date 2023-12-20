@@ -1,5 +1,6 @@
 package Day06;
 
+import Base.Puzzle;
 import java.util.Arrays;
 import java.util.Scanner;
 

@@ -1,5 +1,6 @@
 package Day08;
 
+import Base.Puzzle;
 import java.util.*;
 
 public class Day08_HauntedWasteland extends Puzzle {

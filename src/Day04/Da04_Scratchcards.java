@@ -1,7 +1,7 @@
 package Day04;
 
 import java.util.*;
-
+import Base.Puzzle;
 public class Da04_Scratchcards extends Puzzle {
     public static void main(String[] args) {
         Puzzle puzzle = new Da04_Scratchcards();

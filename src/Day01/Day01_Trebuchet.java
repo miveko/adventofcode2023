@@ -1,5 +1,6 @@
 package Day01;
 
+import Base.Puzzle;
 import java.util.*;
 
 public class Day01_Trebuchet extends Puzzle {

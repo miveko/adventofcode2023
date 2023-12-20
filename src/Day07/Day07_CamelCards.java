@@ -1,5 +1,6 @@
 package Day07;
 
+import Base.Puzzle;
 import java.util.*;
 
 public class Day07_CamelCards extends Puzzle {

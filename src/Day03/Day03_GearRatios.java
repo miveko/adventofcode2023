@@ -4,9 +4,9 @@ import java.awt.*;
 import java.util.*;
 import java.util.List;
 import static java.lang.Character.isDigit;
+import Base.Puzzle;
 
-public class Day03_GearRatios extends Puzzle
-{
+public class Day03_GearRatios extends Puzzle {
     int height, width;
     List<String> schematic;
     boolean[][] covered;
