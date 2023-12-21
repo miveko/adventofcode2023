@@ -47,6 +47,7 @@ public class Day11_CosmicExpansion extends Puzzle {
                 dist += multplier - 1;
         return dist + (Math.abs(a.x - b.x) + Math.abs(a.y - b.y));
     }
+
     private List<Point> extractSharps() {
         List<Point> ps = new ArrayList<>();
         for(int i=0; i<map.size(); i++)
@@ -55,6 +56,7 @@ public class Day11_CosmicExpansion extends Puzzle {
                     ps.add(new Point(i,j));
         return ps;
     }
+
     private List<Integer> getEmptyColumns() {
         List<Integer> emptyColumns = new ArrayList<>();
         for(int j=0; j<map.get(0).size(); j++) {
